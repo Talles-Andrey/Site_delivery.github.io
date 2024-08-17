@@ -1,0 +1,131 @@
+  body {
+    background-image: url(image\ 9.png);
+    color: #FFFFFF;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+  }
+
+
+
+  .container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+  }
+
+  .title {
+    font-size: 80px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 10px;
+    font-family: "Jomhuria", sans-serif;
+    margin-top: 40px;
+  }
+
+  .image-container {
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: left;
+    margin-left: 200px;
+  }
+
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin-top: 50px;
+  }
+
+  .description {
+    font-size: 50px;
+    margin-bottom: 10px;
+    text-align: left;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    font-family: "Jomhuria", sans-serif;
+  }
+
+  .price {
+    font-size: 50px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+    margin-left: 40px;
+    font-family: "Jomhuria", sans-serif;
+    margin-top: 50px;
+  }
+
+  .button {
+    background-color: #007bff;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 40px;
+    cursor: pointer;
+    margin-top: 100px;
+    height: 100px;
+    width: 1000px;
+  }
+
+  header {
+    background-color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+  }
+
+  nav ul li {
+    margin: 0 30px;
+  }
+
+  nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+  }
+
+  .texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    font-family: "irish grover", sans-serif;
+    font-size: 50px;
+  }
+
+  .logo {
+    display: flex;
+    justify-content: left;
+
+  }
+
+  .links {
+    display: flex;
+    align-items: center;
+
+  }
+
+  p {
+    margin-top: 0;
+  }
